@@ -23,7 +23,9 @@ function LoginForm() {
                 </label>
             </div>
             <>
-            <button>Submit</button>
+            <form>
+                <button>Submit</button>
+            </form>
             </>
         </div>
     

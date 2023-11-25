@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SingleCat = ({ id, name, latinName, image, onDelete }) => {
-  const handleDelete = () => {
+const handleDelete = () => {
     onDelete(id);
   };
 

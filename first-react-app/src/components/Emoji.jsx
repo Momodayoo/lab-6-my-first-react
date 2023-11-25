@@ -17,12 +17,16 @@ function Emoji() {
     
     return (
         <div className="Emoji">
+            <div className='emoji-box'>
             Current Mood: {mood}
+            </div>
+            <div className='button-container'>
             {/* Using arrow functions */}
             <button onClick={() => setMood('😐')}>Neutral</button>
             {/* Using custom event handler functions */}
             <button onClick={sad}>Feeling Blue</button>
             <button onClick={happy}> Happy Chappy!</button>
+            </div>
         </div>
     )
 }

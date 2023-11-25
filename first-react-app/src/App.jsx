@@ -33,7 +33,7 @@ function App() {
   return (
     <>
 
-      <div>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -54,7 +54,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <br></br>
+      <br></br> */}
       <Greetings name="momo">
         <p>welcome to kityy land!</p>
       </Greetings>
@@ -66,21 +66,21 @@ function App() {
         text={comment.text}
       />
 
-
-      <City name="Perth" />
-      <BigCats></BigCats>
-      
-      <br />
-      <MoviesList></MoviesList>
       <br></br>
       <Emoji></Emoji>
       <br />
-      <MoodChanger></MoodChanger>
+      <City name="Perth" />
+      <BigCats></BigCats>
+
+      <br />
+      <MoviesList></MoviesList>
+
+      {/* <MoodChanger></MoodChanger> */}
 
       <br></br>
       <BirthdayTranslator></BirthdayTranslator>
       <br></br>
-      <LoginForm></LoginForm>
+      {/* <LoginForm></LoginForm> */}
 
       <Calculator />
     </>

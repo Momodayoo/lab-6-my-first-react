@@ -47,3 +47,28 @@
   text-align: center;
   background: #efefef;
 }
+
+.Emoji {
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.emoji-box {
+  display: inline-block;
+  font-size: 2em;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-container button {
+  font-size: 1em;
+  padding: 8px 16px;
+  margin: 5px;
+}
