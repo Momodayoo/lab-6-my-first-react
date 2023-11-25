@@ -1,4 +1,4 @@
-function City({ name, state = 'NSW', country = 'Australia' }) {
+function City({ name, state = 'WA', country = 'Australia' }) {
 
     return (
         <div className="City componentBox">

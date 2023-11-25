@@ -56,7 +56,7 @@ function App() {
       </p>
       <br></br>
       <Greetings name="momo">
-        <p>welcome to gotham</p>
+        <p>welcome to kityy land!</p>
       </Greetings>
 
       <ComplexComment
@@ -67,7 +67,7 @@ function App() {
       />
 
 
-      <City name="Sydney" />
+      <City name="Perth" />
       <BigCats></BigCats>
       
       <br />
