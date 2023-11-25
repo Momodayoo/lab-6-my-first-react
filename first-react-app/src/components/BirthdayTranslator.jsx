@@ -3,7 +3,8 @@ import { useState } from "react";
 const phrases = new Map([
     ['english', 'Happy Birthday'],
     ['german', 'Alles Gute zum Geburtstag'],
-    ['spanish', 'Feliz Cumpleaños']
+    ['spanish', 'Feliz Cumpleaños'],
+    ['japanese', 'お誕生日おめでとう!']
 ]);
 function BirthdayTranslator() {
     const [currentLanguage, setCurrentLanguage] = useState('english');
@@ -26,6 +27,10 @@ function BirthdayTranslator() {
             <button onClick={() =>
 
                 handleChangeLanguage('spanish')}>Spanish</button>
+           
+            <button onClick={() =>
+
+                handleChangeLanguage('japanese')}>Japanese</button>
 
         </div>
     )
